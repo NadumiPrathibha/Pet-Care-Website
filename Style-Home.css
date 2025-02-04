@@ -1,0 +1,236 @@
+ 
+        @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .IMAGE {
+            align-items: center;
+            height: 8px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative; 
+        }
+
+        .home {
+            background-color: #000;
+            display: flex;
+            justify-content: right;
+            height: 50px;
+        }
+        
+        #h1, #h2 {
+            height: 30px;
+            width: auto;
+            margin-top: 5px;
+        }
+        h1 {
+            letter-spacing: 10px;
+        }
+
+        nav {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: red;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color:white;
+            background-image: url(N.jpg);
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .container img {
+            width: 30%;
+            height: 20%;
+        }
+
+        .container .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .box-transparent {
+            background-color: rgb(0,0,0,0.5);
+            margin: 0px 100px 0px 100px;
+            border: 5px solid white;
+	        padding: 100px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 3px solid red;
+            background-color: white;
+            color: #000;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-section1 {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            background-color: #222;
+            color: white;
+        }
+
+        .section {
+            flex-basis: 25%;
+            text-align: center;
+        }
+
+        .footer-section1 div {
+            margin: 10px;
+            flex: 1;
+        }
+
+        .footer-section2 {
+            text-align: center;
+             background-color: #b5b5b5;
+            
+        }
+
+        #Map {
+            text-align: center;
+            justify-content: center;
+            flex-basis: 25%;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            background-color: grey;
+            margin: 0 auto;
+        }
+
+        #h3 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        .footer-links ul, .information ul {
+            line-height: 4;
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links ul li a, .information ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #li1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .visit-us {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section p.p1::first-letter {
+            font-size: 16pt;
+            font-weight: bold;
+        }
+
+        .information table td {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-right: 10%;
+            color: white;
+        }
+
+        .information table {
+            border-spacing: 0 20px;
+        }
+
+        .icon {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 50%;
+        }
+
+        .location {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -122px -54px;
+        }
+
+        .contact {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -53px;
+        }
+
+        .email {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -122px;
+        }
+        

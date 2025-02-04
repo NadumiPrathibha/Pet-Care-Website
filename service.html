@@ -1,0 +1,389 @@
+
+<html>
+<head>
+    <title>Service</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .IMAGE {
+            align-items: center;
+            height: 8px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative; 
+        }
+
+        .home {
+            background-color: #000;
+            display: flex;
+            justify-content: right;
+            height: 50px;
+        }
+        
+        #h1, #h2 {
+            height: 30px;
+            width: auto;
+            margin-top: 5px;
+        }
+        h1 {
+            letter-spacing: 10px;
+        }
+
+        nav {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: red;
+        }
+
+        .container {
+            position: relative;
+            text-align: center;
+            color: white;
+            background-image: url(N.jpg);
+            background-size: cover;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        .container img {
+            width: 30%;
+            height: 20%;
+        }
+
+        .container .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .SERVICES-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:left;
+            margin: 20px 0;
+        }
+
+        .product {
+            background-color: #fff;
+            background-color: #fff;
+            text-align: left;
+            width: 45%;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product img {
+            max-width: 50px;
+            margin-bottom: 10px;
+        }
+
+        .icon-border {
+            border: 5px solid yellow;
+            padding: 10px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .product a {
+            align-self: flex-end;
+            margin-top: 20px;
+            padding: 10px 50px;
+            background-color: #ffc107;
+            color: #000;
+            text-decoration: none;
+            border-radius: 15px;
+            font-weight: bold;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .information ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .information li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .information img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+       
+
+        .information img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-section1 {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            background-color: #222;
+            color: white;
+        }
+
+        .section {
+            flex-basis: 25%;
+            text-align: center;
+        }
+
+        .footer-section1 div {
+            margin: 10px;
+            flex: 1;
+        }
+
+        .footer-section2 {
+            text-align: center;
+             background-color: #b5b5b5;
+            
+        }
+
+        #Map {
+            text-align: center;
+            justify-content: center;
+            flex-basis: 25%;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            background-color: grey;
+            margin: 0 auto;
+        }
+
+        #h3 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        .footer-links ul, .information ul {
+            line-height: 4;
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links ul li a, .information ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #li1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .visit-us {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section p.p1::first-letter {
+            font-size: 16pt;
+            font-weight: bold;
+        }
+
+        .information table td {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-right: 10%;
+            color: white;
+        }
+
+        .information table {
+            border-spacing: 0 20px;
+        }
+
+        .icon {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 50%;
+        }
+
+        .location {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -122px -54px;
+        }
+
+        .contact {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -53px;
+        }
+
+        .email {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -122px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="IMAGE">
+        <div class="h1"><img id="h1" src="H.png"></div>
+        <div class="h1"><h1>PET  CARE</h1></div>
+        <div class="h1"><img id="h2" src="H.png"></div>
+    </header>
+    <div class="home">   
+        <nav class="home">
+            <ul>
+                <li><a href="Home.html">HOME</a></li> 
+                <li><a href="service.html">SERVICES</a></li> 
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="reviews.html">REVIEWS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="SERVICES-content">
+        <div class="product">
+            <img src="bone.jpeg" alt="Healthy and Tasty Treats" class="icon-border">
+            <h2>Healthy and Tasty Treats</h2>
+            <p>With Dog Snack Brands like Superbite, Gnawlers, Jerhigh you can have nutritious binge moments.You can choose among Dog Snack Bacon or Hotdog Bar Chicken whwn you seek snacks of aniaml origin. Among products of vegetable and animal origin. You can choose among Dog Snack Spinach. Dog Snack Carrot, Fruity Stick and so on and enjoy upto 30% discounts on the same</p>
+            <a href="Dog Hostel.html">M O R E</a>
+        </div>
+        <div class="product">
+            <img src="steps.jpg" alt="Dog Toys" class="icon-border">
+            <h2>Dog Toys</h2>
+            <p>While you buy dog toys online with us, we take care that the toy has rounded edges ideal for small breeds and pups.They all are made from animal safe. food grade and virgin plastic. So,have some fun with your Dog and give him a Happier Playtime. Buy Chew Bones,Rubber Balls,Rope Toys and many more items at huge discounts.</p>
+            <a href="Dog Hostel.html">M O R E</a>
+        </div>
+        <div class="product">
+            <img src="dog.jpeg" alt="Collars & Leashes" class="icon-border">
+            <h2>Collars & Leashes</h2>
+            <p>Get exciting offers on Dog Collar Charms, Leashes, Muzzles, Harnesses, etc. on Top Brands-Warning! and make your Dog's training happy. For your bulldog or Rottweiler we have metal chains with grips,collars with pointed studs and extra large choke chains. For your beagle or pomeranian we have printed collars and nylon ropes. With attractive prints and designers motifies there is a lot when you search for the best.</p>
+            <a href="Dog Hostel.html">M O R E</a>
+        </div>
+        <div class="product">
+            <img src="S.png" alt="Supplements & Shampoos" class="icon-border">
+            <h2>Supplements & Shampoos</h2>
+            <p>Keep your pup in shape with healthy dog Supplements. Dog Supplements come in many forms including soft chews and tables. Give your furry friends the vitamins they need to stay Happy and Healthy. We also have a variety of pet shampoo for different breeds and pups including lick shampoo on upto 40% discount under Best Brands. Go,check Out Now!</p>
+            <a href="Dog Hostel.html">M O R E</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-section1">
+            <div class="section red-border">
+                <img id="h3" src="logo.jpg" alt="Pet Care Logo" width="100">
+                <p class="p1" style="font-family: 'Playwrite AU TAS';">Pets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life...</p>
+            </div>
+            <div class="section footer-links">
+                <h3>Have A Question</h3>
+                <ul>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="Dog Hostel.html">Dog Hostel</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="section information">
+                <h3>Information</h3>
+                <table>
+                    <tr>
+                        <td class="icon location"></td>
+                        <td><p>Pet Care (Pvt) Ltd, 123, 1st Floor, Dalugama, Kelaniya</p></td>
+                    </tr>
+                    <tr>
+                        <td class="icon contact"></td>
+                        <td><p>Telephone: 0112 999999</p></td>
+                    </tr>
+                    <tr>
+                        <td class="icon email"></td>
+                        <td><p>Email: info@petcare.com</p></td>
+                    </tr>
+                </table>
+            </div>
+             <div class="section visit-us" id="Map">
+                <h3>Visit Us</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.318890271079!2d79.91950511146902!3d6.971654117762321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257f649062ffb%3A0xcbffa7579bd3750!2sKelaniya%2011300!5e0!3m2!1sen!2slk!4v1722586830637!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </div>
+        <div class="footer-section2">
+            <p>© 2023 Pet Care 11600. Designed by Team PETCARE</p>
+        </div> 
+    </footer>
+</body>
+</html>

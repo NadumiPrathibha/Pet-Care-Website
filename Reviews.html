@@ -1,0 +1,383 @@
+
+<html>
+<head>
+    <title>Reviews</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #333;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .IMAGE {
+            align-items: center;
+            height: 8px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative; 
+        }
+
+        .home {
+            background-color: #000;
+            display: flex;
+            justify-content: right;
+            height: 50px;
+        }
+        
+        #h1, #h2 {
+            height: 30px;
+            width: auto;
+            margin-top: 5px;
+        }
+        h1 {
+            letter-spacing: 10px;
+        }
+
+        nav {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul {
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: right;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+        }
+
+        nav ul li a:hover {
+            background-color: red;
+        }
+
+
+        .container {
+            display: flex;
+            gap: 10px;            
+            padding: 50px;
+        }
+
+        .box {
+            text-align: center;
+            line-height: 2;
+            flex: 1;    
+            width: 50px; 
+            height: 500px; 
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+
+        .box h3 {
+            margin-top: 0;
+        }
+
+        #h4 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        #h5 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        #h6 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        .title {
+            padding-left: 50px;
+            padding-top: 20px;
+            text-align: left;
+            margin-bottom: 20px;
+            font-size: 22px;
+            font-weight: bold; 
+             color:#FFFF00; 
+             background-color: #333;     
+        }
+          
+        .title h2::first-letter{
+            font-size: larger;
+            font-family:'Times New Roman', Times, serif
+        }
+        .title hr{
+            border: none;
+            height: 4px;
+            background-color:#fff;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            min-width: 200px;
+            min-width: 200px;
+             Width:300px;
+
+        }
+
+        .information ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .information li {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .information img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+       
+
+        .information img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-section1 {
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+            background-color: #222;
+            color: white;
+        }
+
+        .section {
+            flex-basis: 25%;
+            text-align: center;
+        }
+
+        .footer-section1 div {
+            margin: 10px;
+            flex: 1;
+        }
+
+        .footer-section2 {
+            text-align: center;
+             background-color: #b5b5b5;
+            
+        }
+
+        #Map {
+            text-align: center;
+            justify-content: center;
+            flex-basis: 25%;
+        }
+
+        iframe {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            background-color: grey;
+            margin: 0 auto;
+        }
+
+        #h3 {
+            padding: 2%;
+            border-radius: 50%;
+            border: 2px solid red;
+        }
+
+        .footer-links ul, .information ul {
+            line-height: 4;
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-links ul li a, .information ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #li1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .visit-us {
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section p.p1::first-letter {
+            font-size: 16pt;
+            font-weight: bold;
+        }
+
+        .information table td {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-right: 10%;
+            color: white;
+        }
+
+        .information table {
+            border-spacing: 0 20px;
+        }
+
+        .icon {
+            padding: 0px;
+            margin: 0px;
+            border-radius: 50%;
+        }
+
+        .location {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -122px -54px;
+        }
+
+        .contact {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -53px;
+        }
+
+        .email {
+            width: 55px;
+            height: 55px;
+            background-size: 300px 300px;
+            background: url('footer-sprite.jpg') no-repeat -195px -122px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header class="IMAGE">
+        <div class="h1"><img id="h1" src="H.png"></div>
+        <div class="h1"><h1>PET CARE</h1></div>
+        <div class="h1"><img id="h2" src="H.png"></div>
+    </header>
+    <div class="home">   
+        <nav class="home">
+            <ul>
+                <li><a href="Home.html">HOME</a></li> 
+                <li><a href="service.html">SERVICES</a></li> 
+                <li><a href="about us.html">ABOUT</a></li>
+                <li><a href="reviews.html">REVIEWS</a></li>
+            </ul>
+        </nav>
+    </div>
+<div class="title"><h2>CUSTOMERS</h2><hr></div>
+<div class="container">
+        <div class="box">
+            <h3>Quick Service</h3><br>
+            <p>The products I ordered reached before time. The support I received was thorough and timely and the support team was quick to respond with a single interaction. Awesome! . Would definitely recommend this to every pet owner for best service, be it technical support or timely delivery.</p><br>
+            <img id="4" img src="customer3.png" alt="Stephani Fernands" width="100">
+            <p><em>Stephani Fernando, Kelaniya</em></p>
+        </div>
+        <div class="box">
+            <h3>Comfortable Shopping</h3><br>
+            <p>Was a little nervous to order because I had never considered shopping online for my Husky. Glad I took the chance, now I am a happy returning customer. You just made pet shopping very easy.Thankyou Pet Care!</p><br><br>
+            <img id="5" img src="customer2.png" alt="Peter Almeda" width="100">
+            <p><em>Peter Almeda, Kadawatha</em></p>
+        </div>
+        <div class="box">
+            <h3>Best Discounts</h3><br>
+            <p>I can't even express how excited I was when your delivery arrived. The quality of product is 100% as addressed, that too, in such a good price. I bought my dog some toys and a snack bowl and he just loved it. Just wanted to thank you guys for such an amazing service!</p><br>
+            <img id="6" img src="customer1.png" alt="Ravantha Perera" width="100">
+            <p><em>Ravinath Perera, Kiribathgoda</em></p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-section1">
+            <div class="section red-border">
+                <img id="h3" src="logo.jpg" alt="Pet Care Logo" width="100">
+                <p class="p1" style="font-family: 'Playwrite AU TAS';">Pets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life...</p>
+            </div>
+            <div class="section footer-links">
+                <h3>Have A Question</h3>
+                <ul>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="Dog Hostel.html">Dog Hostel</a></li>
+                    <li><a href="about us.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="section information">
+                <h3>Information</h3>
+                <table>
+                    <tr>
+                        <td class="icon location"></td>
+                        <td><p>Pet Care (Pvt) Ltd, 123, 1st Floor, Dalugama, Kelaniya</p></td>
+                    </tr>
+                    <tr>
+                        <td class="icon contact"></td>
+                        <td><p>Telephone: 0112 999999</p></td>
+                    </tr>
+                    <tr>
+                        <td class="icon email"></td>
+                        <td><p>Email: info@petcare.com</p></td>
+                    </tr>
+                </table>
+            </div>
+             <div class="section visit-us" id="Map">
+                <h3>Visit Us</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.318890271079!2d79.91950511146902!3d6.971654117762321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae257f649062ffb%3A0xcbffa7579bd3750!2sKelaniya%2011300!5e0!3m2!1sen!2slk!4v1722586830637!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </div>
+        <div class="footer-section2">
+            <p>© 2023 Pet Care 11600. Designed by Team PETCARE</p>
+        </div> 
+    </footer>
+</body>
+</html>
